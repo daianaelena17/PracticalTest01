@@ -7,52 +7,18 @@
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/firstButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:gravity="right"
-        android:layout_alignParentRight="true"
->
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="NAVIGATE TO SECONDARY ACTIVITY">
-
-        </Button>
-
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/firstLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/firstButton"
+        android:layout_alignParentTop="true"
         android:orientation="horizontal"
         android:weightSum="2">
 
         <EditText
-            android:id="@+id/text0"
+            android:id="@+id/text00"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:enabled="false"
-            android:gravity="center_horizontal"
-            android:text="0"
-            android:textAlignment="center"
-            android:saveEnabled="false">
-
-        </EditText>
-
-        <EditText
-            android:id="@+id/text1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:layout_weight="1"
+            android:layout_weight="2"
             android:enabled="false"
             android:gravity="center_horizontal"
             android:text="0"
@@ -69,20 +35,20 @@
         android:weightSum="2">
 
         <Button
-            android:id="@+id/button0"
+            android:id="@+id/button00"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="PRESS ME!">
+            android:text="OK">
 
         </Button>
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/button01"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="PRESS ME, TOO!">
+            android:text="CANCEL">
 
         </Button>
     </LinearLayout>
